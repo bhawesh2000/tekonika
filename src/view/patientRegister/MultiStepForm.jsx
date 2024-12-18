@@ -122,7 +122,7 @@ const MultiStepForm = () => {
                 <button
                   type="submit"
                   className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 focus:outline-none"
-                  disabled={!formikStep1.isValid || !formikStep1.dirty}
+                  disabled={!formikStep1.isValid}
                 >
                   Next
                 </button>
@@ -160,7 +160,7 @@ const MultiStepForm = () => {
                 <button
                   type="submit"
                   className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 focus:outline-none"
-                  disabled={!formikStep2.isValid || !formikStep2.dirty}
+                  disabled={!formikStep2.isValid}
                 >
                   Next
                 </button>
